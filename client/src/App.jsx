@@ -10,7 +10,11 @@ function App() {
 
 
   return (
-   <BrowserRouter>
+
+  
+    <main className='bg-black'>
+      
+      <BrowserRouter>
    
    <Routes>
     <Route path="/" element={<Home/>} />
@@ -22,6 +26,8 @@ function App() {
    </Routes>
    
    </BrowserRouter>
+      
+    </main>
   )
 }
 
