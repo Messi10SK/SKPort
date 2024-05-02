@@ -12,30 +12,29 @@ export default function Header() {
          
    
       <span className='my-2'>
-      <Link to={"/"} className='font-bold text-white text-xl mx-10 '>
+      <Link to={"/"} className='font-bold text-white text-xl mx-10 font-mont '>
       Satyam Kanojiya
       </Link>
       </span>
 
-      <div className="flex flex-1 justify-center max-sm:hidden">
 
-      <ul className="flex font-semibold justify-between mt-3">
+      <div className="flex flex-1  justify-center max-sm:hidden">
+      <div class="bg-gray-900 rounded-lg p-3 pr-0 pl-14  flex justify-around mr-20 items-center shadow-md">
+      <ul className="flex font-semibold justify-between mr-16 mt-2 ">
               
-       <li className="px-5 text-lg cursor-pointer text-gray  hover:text-white transition-all"> <a href="/">Home</a></li>
-       <li className="px-5 text-lg cursor-pointer text-gray hover:text-white transition-all"> <a href="/projects">Projects</a></li>
-       <li className="px-5 text-lg cursor-pointer text-gray hover:text-white transition-all" ><a href="/about">About</a></li>
+       <li className="px-5 text-lg cursor-pointer text-white font-mont  hover:text-gray transition-all"> <a href="/">Home</a></li>
+       <li className="px-5 text-lg cursor-pointer text-white font-mont hover:text-gray transition-all"> <a href="/projects">Projects</a></li>
+       <li className="px-5 text-lg cursor-pointer text-white font-mont hover:text-gray transition-all" ><a href="/about">About</a></li>
 
-       
-       
-      </ul>
+     </ul>
 
-
+     </div>
       </div>
 
 
       <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
-         <Button class="text-black bg-white hover:bg-[#050708]/90 focus:ring-4 focus:outline-none  focus:ring-[#050708]/50 font-medium rounded-lg text-lg px-1 py-1 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 me-2 mb-2 hover:text-white hover:border-2 hover:border-white transition-all-smooth">
-        <Link to='/contact'>
+         <Button class="text-white bg-black hover:bg-[#050708]/90 focus:ring-4 focus:outline-none  font-mont font-bold text-xl focus:ring-[#050708]/50  rounded-lg  px-1 py-1 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 me-2 mb-2 hover:text-white hover:border-2 hover:border-white transition-all-smooth">
+        <Link to='/contact' >
         Connect With Me
         </Link>
       

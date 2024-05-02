@@ -18,6 +18,10 @@ export default {
         },
         zinc: "#101010",
       },
+      fontFamily:{
+        robot :[ "Roboto", 'sans-serif'],
+        mont :[ "Montserrat", 'sans-serif'],
+      }
     },
   },
   plugins: [flowbite.plugin()],
