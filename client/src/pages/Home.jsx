@@ -116,7 +116,7 @@ export default function Home() {
       </div>
 
       <div className="technology-card relative overflow-hidden hover:bg-white transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg rounded-lg">
-        <img src={'public/icons8-triangle-96.png'} alt="Java Icon" className="mx-auto w-16 h-16 mb-4 hover:scale-110 transition duration-300 ease-in-out transform" />
+        <img src={'/icons8-triangle-96.png'} alt="Java Icon" className="mx-auto w-16 h-16 mb-4 hover:scale-110 transition duration-300 ease-in-out transform" />
         <p className="text-lg  font-mont font-semibold text-center text-black">Vercel</p>
       </div>
 
@@ -131,7 +131,7 @@ export default function Home() {
       </div>
 
       <div className="technology-card relative overflow-hidden hover:bg-sky-100 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg rounded-lg">
-        <img src={'public/icons8-react-a-javascript-library-for-building-user-interfaces-96.png'} alt="Java Icon" className="mx-auto w-16 h-16 mb-4 hover:scale-110 transition duration-300 ease-in-out transform" />
+        <img src={'/icons8-react-a-javascript-library-for-building-user-interfaces-96.png'} alt="Java Icon" className="mx-auto w-16 h-16 mb-4 hover:scale-110 transition duration-300 ease-in-out transform" />
         <p className="text-lg font-mont font-semibold text-center text-black">React</p>
       </div>
 
