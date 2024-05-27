@@ -188,13 +188,13 @@ export default function Home() {
           <div className="mt-6 border-t pt-12">
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center">
               <div>
-                <span className="text-gray-600 uppercase text-4xl font-medium">1.TechBlogs</span>
-                <p className="text-4xl mt-8 tracking-tighter font-semibold text-gray-700 text-balance">A Blog application where I post tech blogs mostly related to web Development, AI, BlockChain and Crypto. </p>
-                <p className="text-2xl mt-4 text-gray-700 text-balance">Any One can post Blog over There and Can contribute </p>
+                <span className="text-gray-600 uppercase text-4xl font-medium">1.CryptoStare</span>
+                <p className="text-4xl mt-8 tracking-tighter font-semibold text-gray-700 text-balance">A application which display live cryptocurrency information it is created by fetchind a data from api . </p>
+                <p className="text-2xl mt-4 text-gray-700 text-balance">You can compare cryptocurrencies and and update your information about crypto </p>
                 <div className="mt-6 text-xs font-medium grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 text-gray-950">
                   <div className="inline-flex items-center gap-2 text-xs text-gray-700">
                   <button className="py-3 px-5 rounded-lg text-white bg-gray-500 hover:bg-white hover:text-black">
-                      <Link to='#'>Live Demo</Link>
+                      <Link to='https://crypto-stare.vercel.app/'>Live Demo</Link>
                    </button>
                    
                   </div>
@@ -202,7 +202,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="h-full md:order-first">
-                <img src="https://i.pinimg.com/564x/59/41/a0/5941a02c048f6226031a0487451c2651.jpg" alt="#_" className="bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square w-full h-full object-cover object-center rounded-lg  transition duration-300 hover:scale-110 ease-in-out" />
+                <img className = 'h-100 w-100'src="https://m.foolcdn.com/media/dubs/images/original_imagesoriginal_imageshttpsg.foolcdn.c.width-880_SfbkM9V.jpg" />
               </div>
             </div>
           </div>
@@ -224,16 +224,16 @@ export default function Home() {
       <div className="mt-6 border-t pt-12">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center">
         <div className="h-full md:order-last">
-                <img src="https://i.pinimg.com/564x/59/41/a0/5941a02c048f6226031a0487451c2651.jpg" alt="#_" className="bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square w-full h-full object-cover object-center rounded-lg  transition duration-300 hover:scale-110 ease-in-out" />
+                <img  className = 'h-100 w-100' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROJmGQU-YJkAWvjqyS0zA6Ul5zqRPNBK_8YA&s" />
               </div>
           <div>
-          <span className="text-gray-600 uppercase text-4xl font-medium">2.IChat</span>
+          <span className="text-gray-600 uppercase text-4xl font-medium">2.TechBlogs</span>
           <p className="text-4xl mt-8 tracking-tighter font-semibold text-gray-700 text-balance">A Blog application where I post tech blogs mostly related to web Development, AI, BlockChain and Crypto. </p>
                 <p className="text-2xl mt-4 text-gray-700 text-balance">Any One can post Blog over There and Can contribute </p>
             <div className="mt-6 text-xs font-medium grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 text-gray-950">
               <div className="inline-flex items-center gap-2 text-xs text-gray-700">
               <button className="py-3 px-5 rounded-lg text-white bg-gray-500 hover:bg-white hover:text-black">
-                      <Link to='#'>Live Demo</Link>
+                      <Link to='https://github.com/Messi10SK/CrackJsBlogs.git'>Git Link</Link>
                    </button>
               </div>
             </div>
@@ -246,6 +246,56 @@ export default function Home() {
 
 
 
+<section>
+      <div className="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-screen-xl flex flex-col lg:h-svh justify-center">
+        <div className="flex flex-col">
+          <div className="mt-6 border-t pt-12">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center">
+              <div>
+                <span className="text-gray-600 uppercase text-4xl font-medium">3.DailyDo</span>
+                <p className="text-4xl mt-8 tracking-tighter font-semibold text-gray-700 text-balance">Created a todo application using React for the frontend. Implemented features such as adding, deleting, and updating tasks, as well as filtering tasks based on their completion status. Utilized local storage for persistent data storage. </p>
+                <p className="text-2xl mt-4 text-gray-700 text-balance">Use this to maintain consistency </p>
+                <div className="mt-6 text-xs font-medium grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 text-gray-950">
+                  <div className="inline-flex items-center gap-2 text-xs text-gray-700">
+                  <button className="py-3 px-5 rounded-lg text-white bg-gray-500 hover:bg-white hover:text-black">
+                      <Link to='https://daily-do-sandy.vercel.app/'>Live Demo</Link>
+                   </button>
+                   
+                  </div>
+                  
+                </div>
+              </div>
+              <div className="h-full md:order-first">
+                <img className = 'h-100 w-100'src=" https://media.istockphoto.com/id/1746104990/vector/3d-paper-clipboard-task-management-todo-check-list.jpg?s=612x612&w=0&k=20&c=o-7iI3IMEaBTS0oWZHG-YVgwcpEf8YlLdJB0qnJKMGU=" />
+              </div>
+            </div>
+          </div>
+   </div> 
+  </div>
+
+
+ </section>
+<section>
+
+<div className="p-6 text-center bg-gray-100 rounded-lg max-w-lg mx-auto">
+      <h2 className="text-2xl font-semibold mb-4">My Projects</h2>
+      <p className="text-lg mb-6">
+        I have created many projects related to full-stack development. You can visit my GitHub profile to check them out.
+      </p>
+      <a
+        href="https://github.com/Messi10SK"
+        className="text-black font-bold font-mont hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visit my GitHub
+      </a>
+    </div>
+
+</section>
+
+<br />
+<br />
 <section>
 
 <Footer/>
